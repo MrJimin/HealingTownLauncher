@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/aa990/HT-setup/nebulaworkspace/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "힐링타운 (Minecraft 1.21.4)",
+    "description": "힐링타운 서버 전용런처 1.21.4 (Fabric v0.16.14)",
+    "icon": "https://cdn.discordapp.com/attachments/1392636743316144220/1392636752144896120/image.png?ex=6870418b&is=686ef00b&hm=c553720230da7184aba058454279cad19e0c76f4a0d04440aa8296cbe606b575&",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.16.14"
+  },
+  "untrackedFiles": []
+}
