@@ -116,6 +116,59 @@
           ]
         },
         {
+          "id": "squeek.appleskin:appleskin:3.0.6+mc1.21.3@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095505,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/appleskin-fabric-mc1.21.3-3.0.6.jar",
+            "MD5": "eadbff2f246d5494c530a795be893997"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.cael:capes:1.5.5+1.21.4@jar",
+          "name": "Capes",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77080,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/capes-1.5.5+1.21.4-fabric.jar",
+            "MD5": "0c451f1a9397a027b270d1b2991cbb69"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.21.4@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1001061,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/continuity-3.0.0+1.21.4.jar",
+            "MD5": "cb5480ac95db653d5376ec1b41797b56"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl.textile.compat:dynamic_fps:3.9.5@jar",
+          "name": "Dynamic FPS",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 191899,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/dynamic-fps-3.9.5+minecraft-1.21.2-fabric.jar",
+            "MD5": "a018fcc8b46768ef5631e4af2a9b19a5"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.8.1@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 470102,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/entityculling-fabric-1.8.1-mc1.21.4.jar",
+            "MD5": "91f40006750c6c7f116cc10dea0f1b4b"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.119.3+1.21.4@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -123,6 +176,154 @@
             "size": 2148367,
             "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/fabric-api-0.119.3+1.21.4.jar",
             "MD5": "179994db46a00373614c47fb669d1dd3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:7.1.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 107026,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/ferritecore-7.1.1-fabric.jar",
+            "MD5": "cddea62080b823c0c55f72408a0c3ffb"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:17.2.2+fabric@jar",
+          "name": "Jade",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 788296,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/Jade-1.21.4-Fabric-17.2.2.jar",
+            "MD5": "42a76917e67889de6d20d313efccabac"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:4.1.3+1.21.4@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1038224,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/lambdynamiclights-4.1.3+1.21.4.jar",
+            "MD5": "98e4a366c817980aa3c1bc490b3b68d1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.fabricmod:languagereload:1.7.4+1.21.4@jar",
+          "name": "Language Reload",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 74922,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/language-reload-1.7.4+1.21.4.jar",
+            "MD5": "09b5b8f44a5657c1c3be83abb7717e27"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:13.0.3@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1050777,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/modmenu-13.0.3.jar",
+            "MD5": "e8884b37fe775f30a0121c4fbdfb32ac"
+          }
+        },
+        {
+          "id": "generated.fabricmod:morechathistory:1.3.1@jar",
+          "name": "More Chat History",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3573,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/morechathistory-1.3.1.jar",
+            "MD5": "cd040faa8025103baf571a3ce15d4a8a"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.21.4-v2.11.0@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 321286,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/NoChatReports-FABRIC-1.21.4-v2.11.0.jar",
+            "MD5": "47bd3acbbaaf09dae1c5142dc5b3f41c"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:5.2.6+1.21.4@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 380927,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/shulkerboxtooltip-fabric-5.2.6+1.21.4.jar",
+            "MD5": "5ecdffa62dc688733c1373aa50e7953f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.4-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6615653,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/voicechat-fabric-1.21.4-2.5.30.jar",
+            "MD5": "b8cadad576b8d5fe7e2f55b2f36b0ead"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.7@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1729324,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionalon/Xaeros_Minimap_25.2.7_Fabric_1.21.4.jar",
+            "MD5": "35774b549d5e2e45c5065263d2239875"
+          },
+          "required": {
+            "value": false
           }
         }
       ]

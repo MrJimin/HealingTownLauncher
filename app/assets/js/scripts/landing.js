@@ -2,6 +2,7 @@
  * Script for landing.ejs
  */
 // Requirements
+const fs = require('fs-extra');
 const { URL }                 = require('url')
 const {
     MojangRestAPI,
@@ -41,6 +42,44 @@ const server_selection_button = document.getElementById('server_selection_button
 const user_text               = document.getElementById('user_text')
 
 const loggerLanding = LoggerUtil.getLogger('Landing')
+
+// 스크린샷 버튼
+document.getElementById('screenshotsMediaButton').onclick = async e => {
+    const screenshotDir = path.join(
+        ConfigManager.getInstanceDirectory(),
+        ConfigManager.getSelectedServer(),
+        'screenshots'
+    );
+    await fs.ensureDir(screenshotDir);
+    shell.openPath(screenshotDir);
+};
+
+// 게임 해상도 변경
+document.addEventListener('DOMContentLoaded', () => {
+    const resolutionDropdown = document.getElementById('resolutionDropdown');
+    const currentResolution = ConfigManager.getGameWidth() + 'x' + ConfigManager.getGameHeight();
+    let optionExists = false;
+    for (let i = 0; i < resolutionDropdown.options.length; i++) {
+        if (resolutionDropdown.options[i].value === currentResolution) {
+            optionExists = true;
+            resolutionDropdown.options[i].selected = true;
+            break;
+        }
+    }
+    if (!optionExists) {
+        const newOption = document.createElement('option');
+        newOption.value = currentResolution;
+        newOption.text = currentResolution;
+        newOption.selected = true;
+        resolutionDropdown.appendChild(newOption);
+    }
+    resolutionDropdown.addEventListener('change', function() {
+        const [width, height] = this.value.split('x');
+        ConfigManager.setGameWidth(width);
+        ConfigManager.setGameHeight(height);
+        ConfigManager.save();
+    });
+});
 
 /* Launch Progress Wrapper Functions */
 
@@ -149,7 +188,8 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/avatar/${authUser.uuid}')`
+            // https://mc-heads.net/body/${authUser.uuid}/right
         }
     }
     user_text.innerHTML = username

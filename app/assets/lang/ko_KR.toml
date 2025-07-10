@@ -17,6 +17,7 @@ newsErrorLoadSpan = "뉴스를 확인하는 중.."
 newsErrorFailedSpan = "뉴스 불러오기 실패"
 newsErrorRetryButton = "다시 시도"
 newsErrorNoneSpan = "뉴스 없음"
+screenshotsTooltip = "스크린샷"
 
 [ejs.login]
 loginCancelText = "취소"
