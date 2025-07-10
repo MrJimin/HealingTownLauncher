@@ -129,13 +129,27 @@
           }
         },
         {
-          "id": "me.cael:capes:1.5.5+1.21.4@jar",
-          "name": "Capes",
+          "id": "me.cominixo:betterf3:13.0.0@jar",
+          "name": "BetterF3",
           "type": "FabricMod",
           "artifact": {
-            "size": 77080,
-            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/capes-1.5.5+1.21.4-fabric.jar",
-            "MD5": "0c451f1a9397a027b270d1b2991cbb69"
+            "size": 1822782,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/optionaloff/BetterF3-13.0.0-Fabric-1.21.4.jar",
+            "MD5": "889c536f5e13e47bbe731728e1babed8"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:17.0.144@jar",
+          "name": "Cloth Config v17",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1152857,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/cloth-config-17.0.144-fabric.jar",
+            "MD5": "07b7d5bc15bdc7387cf8890d0c460b54"
           }
         },
         {
