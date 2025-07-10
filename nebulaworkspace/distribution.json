@@ -179,6 +179,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.4+kotlin.2.2.0@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7387359,
+            "url": "https://raw.githubusercontent.com/MrJimin/HealingTownLauncher/master/nebulaworkspace/servers/HealingTown-1.21.4/fabricmods/required/fabric-language-kotlin-1.13.4+kotlin.2.2.0.jar",
+            "MD5": "5edf1cfa6574e3e1e38c2e4f1b5a557e"
+          }
+        },
+        {
           "id": "generated.fabricmod:ferritecore:7.1.1@jar",
           "name": "FerriteCore",
           "type": "FabricMod",
